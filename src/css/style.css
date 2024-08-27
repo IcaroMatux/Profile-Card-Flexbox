@@ -1,0 +1,56 @@
+body {
+    background-color: var(--background-color);
+    font-family: "Kumbh Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.image {
+    max-width: 30%;
+    border: 1px solid crimson;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
+.cat-card {
+    background-color: var(--card-color);
+    width: 360px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.cat-card .pessoal-infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.cat-card .infos {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-top: 1px solid var(--text-color);
+    width: 100%;
+    padding: 2rem 0;
+}
+
+.age {
+    margin-left: 15px;
+}
+
+.followers,
+.likes,
+.photos,
+.local,
+.age {
+    color: var(--text-color);
+}
